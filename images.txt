@@ -2,6 +2,8 @@ nginx
 neosmemo/memos
 xhofe/alist
 postgres:15-alpine
+--platform=linux/arm64 ghcr.io/umami-software/umami:postgresql-latest
+--platform=linux/arm64 postgres:15-alpine
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
